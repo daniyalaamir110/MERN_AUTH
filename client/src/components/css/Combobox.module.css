@@ -1,0 +1,21 @@
+.combobox {
+  margin: 0;
+  padding: 8px;
+  width: 100%;
+  border: solid 2px transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #10277020;
+  display: block;
+  outline: none;
+  color: #102770;
+}
+
+.error {
+  color: #f00;
+  font-size: 8pt;
+}
+
+.spacebelow {
+  margin-bottom: 8px;
+}
