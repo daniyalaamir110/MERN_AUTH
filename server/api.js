@@ -12,7 +12,6 @@ api.post("/signup", (request, response) => {
       console.log(error)
       response.status(400).send({ message: "FAILURE" });
     } else {
-      console.log("jbjj")
       response.status(200).send({ message: "SUCCESS" });
     }
   });
